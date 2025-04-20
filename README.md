@@ -1,7 +1,7 @@
 # Tugas1
 https://studio.firebase.google.com/tugas1-55802171
 
-#Flask sederhana
+#Flask sederhanah
 import os
 
 from flask import Flask
@@ -35,14 +35,14 @@ if __name__ == "__main__":
     app.run(debug=False)
 
 
-    #Routing Dinamis
+#Routing Dinamis
     @app.route('/nama/<string:nama>')
 def getnama(nama):
     return "nama anda adalah {fawaz}".format(nama)
 
 
-    #Variabel dalam Routing
-    from flask import Flask
+#Variabel dalam Routing
+from flask import Flask
 
 app = Flask(__name__)
 
